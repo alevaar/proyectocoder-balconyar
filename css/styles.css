@@ -10,13 +10,26 @@ body {
   font-family: 'Titillium Web', sans-serif; }
 
 header {
-  margin-top: 75px; }
+  margin-top: 1vw; }
 
 .navbar {
   background-color: #16697a;
   color: #fcfbfa;
   font-weight: bold;
   text-decoration: none; }
+  .navbar .navbar-brand img {
+    width: 80px;
+    height: 40px; }
+
+.header-content-rigth {
+  text-align: center;
+  align-items: center;
+  justify-content: center; }
+
+.header-content-rigth a img {
+  width: 5vw;
+  height: 5vw;
+  margin-right: 0.8vw; }
 
 #nosotros {
   padding: 50px 0 30px 0;
@@ -27,16 +40,39 @@ header {
   margin-top: 40px; }
 
 #productos {
-  background-color: #d4d3d3;
+  background-color: #f6f5f5;
   padding: 50px 0 30px 0;
   margin-top: 40px; }
 
 #contactenos {
-  background-color: #d4d3d3; }
+  background-color: #f6f5f5; }
 
 .img-contactenos div > img {
-  width: 30px;
+  width: 10vw;
   text-align: center; }
+
+.articulo {
+  padding: 10px 0 0.5px 0;
+  margin-top: 3vw;
+  text-align: center;
+  background-color: #fae0df; }
+  .articulo span {
+    font-weight: bold;
+    color: black;
+    font-style: italic; }
+
+.carousel-item img {
+  height: 35vw; }
+
+.redes-sociales {
+  text-align: center;
+  align-items: center;
+  justify-content: center; }
+
+.redes-sociales a img {
+  width: 5vw;
+  height: 5vw;
+  margin-right: 0.8vw; }
 
 footer {
   background-color: #16697a;
