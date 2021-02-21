@@ -22,8 +22,13 @@ header {
     text-decoration: none;
 
     .navbar-brand img {
+<<<<<<< HEAD
         width: 80px;
         height: 40px;
+=======
+        width: 85px;
+        height: 45px;
+>>>>>>> version1
     }
 }
 
@@ -45,18 +50,27 @@ header {
 }
 
 #portfolio {
-    padding: 50px 0 30px 0;
-    margin-top: 40px;
+    padding: 35px 0 15px 0;
+    margin-top: 0.8vw;
 }
+ #galeria .col-lg-4 .col-md-4 .col-sm-12{
+    margin: 0 !important;
+    padding: 2vh;
+ }
 
-#productos {
-    background-color: #f6f5f5;
-    padding: 50px 0 30px 0;
-    margin-top: 40px;
-}
+ #galeria img {
+     width: 100%;
+     height: 60vh;
+ }
+
+ #galeria img:hover {
+     border: 5px solid #f7f7f7;
+ }
 
 #contactenos {
-    background-color: #f6f5f5;
+    padding: 20px 0 5px 0;
+    margin-top: 0.5vw;
+>>>>>>> version1
 }
 .img-contactenos div > img {
     width: 10vw;
